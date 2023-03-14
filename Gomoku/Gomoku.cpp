@@ -123,11 +123,11 @@ int colToIndex(string point){
 
 bool moveValid(int r, int c, char board[][10])
 {
-    if (r < 0 || r > 10) {
+    if (r < 0 || r > 9) {
         cout << "invalid" << endl;
         return false;
     }
-    if (c < 0 || c > 10) {
+    if (c < 0 || c > 9) {
         cout << "invalid" << endl;
         return false;
     }
